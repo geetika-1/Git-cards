@@ -17,7 +17,7 @@ const App = () => {
         setUserData(data);
       } else {
         console.error('User not found');
-        setUserData(null);it
+        setUserData(null);
       }
     } catch (error) {
       console.error('Error fetching data:', error);
